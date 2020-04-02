@@ -1,0 +1,20 @@
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+dense_1 (Dense)              (None, 25)                4525
+_________________________________________________________________
+dense_2 (Dense)              (None, 1)                 26
+=================================================================
+Total params: 4,551
+Trainable params: 4,551
+Non-trainable params: 0
+_________________________________________________________________
+Train on 5136 samples, validate on 1284 samples
+Epoch 1/2
+ - 1s - loss: 0.2748 - acc: 0.8980 - val_loss: 0.1005 - val_acc: 0.9735
+
+Epoch 00001: saving model to weights.01-0.10.hdf5
+Epoch 2/2
+ - 0s - loss: 0.0745 - acc: 0.9864 - val_loss: 0.0503 - val_acc: 0.9883
+
+Epoch 00002: saving model to weights.02-0.05.hdf5
